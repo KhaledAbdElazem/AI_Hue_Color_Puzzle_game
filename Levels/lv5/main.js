@@ -1,3 +1,35 @@
+
+function generateGameHTML() {
+  const gameDiv = document.createElement("div");
+  gameDiv.classList.add("game");
+
+  const buttons = [];
+  for (let i = 1; i <= 20; i++) {
+    const button = document.createElement("button");
+    button.id = "button" + i;
+
+    if (
+      i === 2 ||
+      i === 5 ||
+      i === 6 ||
+      i === 9 ||
+      i === 11 ||
+      i === 14 ||
+      i === 17 ||
+      i === 20
+    ) {
+      button.textContent = "🗴";
+    } else {
+      button.classList.add("st");
+    }
+    buttons.push(button);
+    gameDiv.appendChild(button);
+  }
+  return gameDiv;
+}
+const parentElement = document.getElementById("box");
+parentElement.appendChild(generateGameHTML());
+
 let originalColors = [
   "#87FE98", //1
   // "#66C173", //2
@@ -46,8 +78,12 @@ function checkWin() {
   }
 
   if (isWin) {
-    alert("Congratulations! You won!");
-    // window.location.href = "../lv4/index.html";
+    clearInterval(intervalID); // Stop the timer
+    // Display alert after 1 second
+    setTimeout(function () {
+      const timeTaken = document.getElementById("timer").innerText;
+      alert("You win! Time taken: " + timeTaken);
+    }, 500);
   } else {
     console.log("Not a win yet.");
   }
@@ -107,6 +143,7 @@ function shuffleColors() {
     buttonElements[i].style.backgroundColor = colors[i];
   }
 }
+shuffleColors();
 
 function swapColors(button1, button2) {
   const color1 = button1.style.backgroundColor;
@@ -121,6 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   buttons.forEach((button) => {
     button.addEventListener("click", function () {
+      // button.style.border = "4px solid wheat";
       if (!firstButton) {
         firstButton = this;
       } else {
@@ -131,3 +169,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+

@@ -36,3 +36,5 @@ for (let i = 1; i <= 5; i++) {
 document.getElementById("lvs1").textContent = "1";
 document.getElementById("lvs2").textContent = "2";
 document.getElementById("lvs3").textContent = "3";
+document.getElementById("lvs4").textContent = "4";
+document.getElementById("lvs5").textContent = "5";
