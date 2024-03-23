@@ -1,0 +1,100 @@
+body {
+  background-image: url("../download\ \(4\).jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#box {
+  color: lightsteelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.game {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid wheat;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3.5px 4px rgba(169, 194, 214, 0.384);
+}
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 50px;
+  /* filter: brightness() (200%); */
+}
+
+.st {
+  transition: 0.3s ease;
+}
+.st:hover {
+  transform: scale(1.1);
+
+  border: 2.5px solid rgb(202, 213, 235);
+  box-shadow: 0px 0px 2px 3.5px rgba(54, 52, 52, 0.5);
+}
+
+header {
+  display: flex;
+  margin: 30px;
+  margin-right: 130px;
+  /* margin-left: 250px; */
+  padding: 10px;
+  justify-content: center;
+
+  /* padding-left: 300px;
+  padding-right: 380px; */
+
+  /* width: 500px; */
+}
+ul {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  list-style: none;
+  /* color: rgba(233, 53, 53, 0.755); */
+}
+li {
+  cursor: default;
+}
+
+span {
+  display: flex;
+
+  justify-content: center;
+  cursor: default;
+}
+
+.back,
+.share,
+.hint,
+.lv,
+#timer {
+  font-size: 30px;
+  cursor: pointer;
+  color: wheat;
+}
+.share,
+.hint,
+.lv,
+#timer {
+  box-shadow: 1px 1px 3.5px 4px rgba(251, 36, 208, 0.748);
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.tx {
+  color: color-mix(in srgb-linear, red 50%, blue 50%);
+  font-size: 20px;
+  box-shadow: 1px 1px 3.5px 4px rgba(169, 194, 214, 0.635);
+  border-radius: 30px;
+  padding: 5px;
+  /* border: 0.5px solid wheat; */
+}
