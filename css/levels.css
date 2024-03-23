@@ -9,7 +9,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
 }
 .game {
   width: auto;
@@ -27,8 +26,8 @@ button {
   border: none;
   cursor: default;
   margin: 5px;
-  font-size: 50px;
-  /* filter: brightness() (200%); */
+  font-size: 25px;
+
 }
 
 .st {
