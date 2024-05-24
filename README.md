@@ -7,7 +7,7 @@
 
 Hue Color Puzzle Game is a relaxing and elegant puzzle game where players need to arrange tiles according to their hues. The game offers a basic mode with multiple levels and provides AI hints to assist players when needed. 
 
-![Game Play](https://drive.google.com/file/d/1UH7iXbqmX3UkpHjlOYsZwJaxAjNmN1DQ/view?usp=sharing)
+![Game Play](https://github.com/KhaledAbdElazem/AI_Hue_Color_Puzzle_game/blob/main/Game_Play.png?raw=true)
 *Gameplay Screenshot*
 
 ## Features
