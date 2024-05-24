@@ -1,6 +1,6 @@
 # Hue Color Puzzle Game with AI Hint
 
-![Main Menu](path/to/your/main_menu_image.png)
+![Main Menu](https://github.com/KhaledAbdElazem/AI_Hue_Color_Puzzle_game/blob/main/main_Screen.png?raw=true)
 *Main Menu of the Hue Color Puzzle Game*
 
 ## Overview
