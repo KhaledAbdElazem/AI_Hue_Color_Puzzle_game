@@ -61,10 +61,3 @@ Contributions are welcome! Please follow these steps to contribute:
 ## Contact
 
 If you have any questions or feedback, feel free to reach out to me at khaledabdelazem.work@gmail.com.
-
-
----
-
-Replace the placeholder paths for the images with the actual paths where the images are stored in your repository. Additionally, update the contact email and GitHub repository URL with your own information.
-
-This README file provides an overview, features, installation instructions, and other relevant details that will help users understand and use your game effectively.
